@@ -12,6 +12,7 @@ modules = ["python-3.10"]
 # Specifies which nix channel to use when building the environment.
 [nix]
 channel = "stable-22_11"
+packages = ["cairo", "ffmpeg-full", "freetype", "gdb", "ghostscript", "glibcLocales", "gobject-introspection", "gtk3", "pkg-config", "qhull", "tcl", "tk"]
 
 [env]
 
